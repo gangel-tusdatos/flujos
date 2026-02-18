@@ -1,11 +1,11 @@
-🔁 Flujo de Desarrollo
+##🔁 Flujo de Desarrollo
 
 ```mermaid
 flowchart LR
     A[Dev crea/actualiza feature branch] --> B[PR a develop]
     B --> C{CI/CD en develop: tests, linters, buenas prácticas}
     C -->|Falla| A
-    C -->|OK| D[Dev aprueba y mergea a develop (sin TL)]
+    C -->|OK| D[Dev aprueba y mergea a develop sin TL]
     D --> E[PR de develop a stage]
     E --> F{CI/CD en stage: tests, linters, buenas prácticas}
     F -->|Falla| A
