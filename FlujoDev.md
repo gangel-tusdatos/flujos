@@ -1,5 +1,4 @@
-
-## 🔁 Flujo de Desarrollo
+🔁 Flujo de Desarrollo
 
 ```mermaid
 flowchart LR
