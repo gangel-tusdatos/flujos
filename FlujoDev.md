@@ -1,3 +1,7 @@
+
+## 🔁 Flujo de Desarrollo
+
+```mermaid
 flowchart LR
     A[Dev crea/actualiza feature branch] --> B[PR a develop]
     B --> C{CI/CD en develop: tests, linters, buenas prácticas}
@@ -16,3 +20,4 @@ flowchart LR
     K -->|OK| L{Aprobaciones requeridas: QA + PO + TL}
     L -->|Rechazado| A
     L -->|Aprobado| M[Despliegue a producción]
+```
